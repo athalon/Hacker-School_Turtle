@@ -1,0 +1,72 @@
+fünfzackiger Stern:
+
+def pentagramm(size):
+  t.lt(72)
+  for i in range(5):
+   t.begin_fill()
+   t.fd(size)
+   t.penup()
+   t.fd(size))
+   t.pendown()
+   t.fd(size)
+   t.rt(180-36)
+   t.end_fill()
+
+
+def rechteck(size1, size2):
+  t.penup()
+  t.bk(size1/2)
+  t.rt(90)
+  t.fd(size2/2)
+  t.lt(90)
+  t.pendown()
+  t.begin_fill()
+  t.fd(size1)
+  t.lt(90)
+  t.fd(size2)
+  t.lt(90)
+  t.fd(size1)
+  t.lt(90)
+  t.fd(size2)
+  t.end_fill()
+
+def Zauberstab(size):
+  t.begin_fill()
+  t.lt(30)
+  rechteck(20,size)
+  t.penup()
+  t.bk(size)
+  t.lt(90)
+  t.fd(10)
+  t.rt(54)
+  t.fd(size/6)
+  t.lt(36)
+  t.pendown()
+  t.pentagramm(size/6)
+  t.end_fill()
+
+def zauberstab(size):
+  t.begin_fill()
+  t.lt(30)
+  rechteck(20,size)
+  t.penup()
+  t.bk(size)
+  t.lt(90)
+  t.fd(10)
+  t.rt(54)
+  t.fd(size/6)
+  t.lt(36)
+  t.pendown()
+  pentagramm(size/6)
+  t.end_fill()
+
+
+
+def n-eck(ecken, size):
+  t.begin_fill()
+  winkel=(ecken-2)*180
+  for i in range (ecken):
+    t.fd(size)
+    t.lt(winkel)
+  t.end_fill()
+

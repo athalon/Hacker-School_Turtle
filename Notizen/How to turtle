@@ -1,0 +1,53 @@
+_How to turtle in Python_
+
+1. import turtle
+2. s = turtle.getscreen()
+
+turtle ist von Anfang an da
+
+Befehle:
+  allgemein: turtle.Befehl(Parameter)
+
+  forward(Distanz) = fd(Distanz)
+  backward(Distanz) = bk(Distanz)
+	right(Winkel) = rt(Winkel)
+	left(Winkel) = lt(Winkel)
+  
+  penup() und pendown() -> Stift an/abheben
+  circle(radius) bzw. cirle(radius, grad) -> malt Kreis bzw. nur Teil eines Kreises
+  goto() -> zu einem bestimmten Punkt direkt begeben
+  pos() -> gibt die Position der Turtle
+
+  color("Farbe") -> Farbe des Stiftes ändern
+  bgcolor("Farbe") -> Farbe des Hintergrunds ändern
+
+
+
+_Python_
+
+#Kommentare
+
+print("Dieser Text wird geschrieben")
+i = input("Hier etwas für Nutzer schreiben, Nutzereingabe wird dann in i gespeichert: ")
+
+
+if/ else Bedingungen:
+  if Variable == "Text"/Zahl/... :
+    was nun ausgeführt werden soll muss eingerückt werden!
+  else/ else if =elif :
+    was ausgeführt wird
+
+Funktionen: (=Methoden)
+ def Name(parameter, parameter):
+ folgende Zeilen einrücken!!!
+ aufrufen: Name(Parameter zum einsetzen)
+
+
+
+_How to run your script in repl.it_
+
+- strg + shift + s
+--> To open the terminal
+
+- python3 Code/dateiname.py
+--> Put this in the terminal

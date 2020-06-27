@@ -1,0 +1,38 @@
+	t.begin_fill()
+  t.penup()
+  t.bk(size/2)
+  t.rt(90)
+  t.fw(size/2)
+  t.lt(90)
+  t.pendown
+  for i in range(2):
+    t.fd(size)
+    t.lt(120)
+  t.fd(size)
+	t.end_fill()
+
+
+
+
+  position = t.pos()
+#seite3 = math.sqrt(seite1**2+seite2**2-2*seite1*seite2*math.cos(winkel1))
+#winkel = math.cos((seite2**2+seite3**2-seite1**2)/2*seite2*seite3)**-1
+t.fd(seite1)
+t.lt(180-winkel1)
+t.fd(seite2)
+t.lt(180-winkel2)
+t.goto(position)
+
+
+
+def stern(size):
+  for i in range(5):
+   t.begin_fill()
+   t.lt(72)
+   t.fd(size)
+   t.penup()
+   t.fd(size)
+   t.pendown()
+   t.fd(size)
+   t.rt(180-36)
+   t.end_fill()

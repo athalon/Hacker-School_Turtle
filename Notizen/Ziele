@@ -1,0 +1,28 @@
+- Stiftgröße verändern [Emmett] [X]
+
+----------------------------------------------------------
+
+- Ausfüllen bei allen Formen [X]
+
+----------------------------------------------------------
+
+- für Farben auch Farbcode [Emmett] [X]
+
+----------------------------------------------------------
+
+- falsche Eingabe => nochmal eingeben [Emmett] [X]
+
+----------------------------------------------------------
+
+- Errorchecks, wo man es braucht
+
+- Weitere Presets [Hanna]
+--> Zauberstab(Rechteck und Stern/Kreis), etc. [Hanna]
+--> Rechteck [Hanna][X]
+--> regelmäßige n-Ecke
+
+----------------------------------------------------------
+
+- manuelle Turtle-Kontrolle []
+--> wasd/ Pfeile zum Bewegen [] --> 
+--> spacebar zum Anheben/Absenken des Stiftes []
